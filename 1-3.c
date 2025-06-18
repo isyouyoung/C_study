@@ -5,7 +5,9 @@ void main()
 	char tt[5] = {'a','b','c','d','e'};
 	char ss[5];
 
-	printf("tt[0] 은 %c 입니다.",tt[0]);
+	for(int i=0; i<4; i++){
+	printf("tt[i] 은 %c 입니다.\n",tt[i]);
+	}
 }
 
 
