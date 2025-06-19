@@ -8,6 +8,9 @@ void main()
 	for(int i=0; i<4; i++){
 	printf("tt[i] 은 %c 입니다.\n",tt[i]);
 	}
+
+	printf("25-06-19 java 시험끝 ");
 }
+
 
 
