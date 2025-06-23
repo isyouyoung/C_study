@@ -10,10 +10,10 @@ void main()
 	{
 		printf("%d번째 숫자를 입력하세요 : ", i+1);
 		scanf("%d", &aa[i] );
+		hap += aa[i];
+		printf("%d번 누적 합계 ==> %d\n",i+1,hap);
 	}
 
-	hap = aa[0] + aa[1] + aa[2] + aa[3];
-
-	printf(" 합 계 ==> %d \n", hap);
+	printf(" 총 합 계 ==> %d \n", hap);
 }
 
