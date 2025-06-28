@@ -2,6 +2,13 @@
 
 void main()
 {
-	printf("미리만듬");
-	printf("미리만든거 살짝수정");
+	int aa[4] = {100, 200, 300, 400};
+	int bb[]  = {100, 200, 300, 400};
+	int cc[4] = {100, 200};
+	int dd[4] = {0};
+	int i;
+
+	for (i=0 ; i<=3 ; i++)
+		printf("aa[%d]==>%d\t", i, aa[i] );
+	printf("\n");
 }
