@@ -9,6 +9,9 @@ void main()
 	int count;
 
 	count = sizeof(aa) / sizeof(int);
+	printf("count = sizeof(aa) / sizeof(int);\n");
+	printf("aa의 사이즈 즉 배열의 사이즈aa[7]을 실제 배열값의 타입인 int로 나눠서\n");
+	printf("각각 사이즈를 알수있게 합니다\n\n");
 
 	printf("배열 aa[]의 요소의 개수는 %d 입니다. \n", count);
 }
